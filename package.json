@@ -1,0 +1,26 @@
+{
+  "name": "home-assistant-twitch-server",
+  "version": "0.0.1",
+  "description": "Home Assistant Twitch Server written on node.",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "restart": "pm2 restart ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js",
+    "delete": "pm2 delete ecosystem.config.js",
+    "dev": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reecube/node-home-assistant-twitch-server.git"
+  },
+  "author": "Yves Riedener (aka reecube)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/reecube/node-home-assistant-twitch-server/issues"
+  },
+  "homepage": "https://github.com/reecube/node-home-assistant-twitch-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
