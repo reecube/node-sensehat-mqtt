@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/reecube/node-home-assistant-twitch-server#readme",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "mqtt": "^4.2.6"
   }
 }
